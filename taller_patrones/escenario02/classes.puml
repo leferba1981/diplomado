@@ -1,0 +1,76 @@
+@startuml
+left to right direction 
+' Interfaces
+interface INotificationFactory {
+    +CreateMessage()
+    +CreateAlert()
+    +CreateWarning()
+    +CreateConfirmation()
+}
+
+interface INotificationMessage
+interface INotificationAlert
+interface INotificationWarning
+interface INotificationConfirmation
+
+' Factories
+class DesktopFactory
+class WebFactory
+class MobileFactory
+class WhatsappFactory
+
+INotificationFactory <|.. DesktopFactory
+INotificationFactory <|.. WebFactory
+INotificationFactory <|.. MobileFactory
+INotificationFactory <|.. WhatsappFactory
+
+' NotificationEngine
+class NotificationEngine {
+    -factory: INotificationFactory
+    +SendNotification(message: string)
+}
+
+NotificationEngine --> INotificationFactory
+
+' Notification Types
+class NotificationDesktopMessage
+class NotificationWebMessage
+class NotificationMobileMessage
+class NotificationWhatsappMessage
+
+class NotificationDesktopAlert
+class NotificationWebAlert
+class NotificationMobileAlert
+class NotificationWhatsappAlert
+
+class NotificationDesktopWarning
+class NotificationWebWarning
+class NotificationMobileWarning
+class NotificationWhatsappWarning
+
+class NotificationDesktopConfirmation
+class NotificationWebConfirmation
+class NotificationMobileConfirmation
+class NotificationWhatsappConfirmation
+
+INotificationMessage <|.. NotificationDesktopMessage
+INotificationMessage <|.. NotificationWebMessage
+INotificationMessage <|.. NotificationMobileMessage
+INotificationMessage <|.. NotificationWhatsappMessage
+
+INotificationAlert <|.. NotificationDesktopAlert
+INotificationAlert <|.. NotificationWebAlert
+INotificationAlert <|.. NotificationMobileAlert
+INotificationAlert <|.. NotificationWhatsappAlert
+
+INotificationWarning <|.. NotificationDesktopWarning
+INotificationWarning <|.. NotificationWebWarning
+INotificationWarning <|.. NotificationMobileWarning
+INotificationWarning <|.. NotificationWhatsappWarning
+
+INotificationConfirmation <|.. NotificationDesktopConfirmation
+INotificationConfirmation <|.. NotificationWebConfirmation
+INotificationConfirmation <|.. NotificationMobileConfirmation
+INotificationConfirmation <|.. NotificationWhatsappConfirmation
+
+@enduml

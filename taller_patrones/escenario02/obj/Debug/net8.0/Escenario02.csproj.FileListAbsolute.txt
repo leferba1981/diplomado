@@ -1,0 +1,14 @@
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.GeneratedMSBuildEditorConfig.editorconfig
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.AssemblyInfoInputs.cache
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.AssemblyInfo.cs
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.csproj.CoreCompileInputs.cache
+D:\gitlab.com\diplomado\taller_patrones\escenario02\bin\Debug\net8.0\Escenario02.exe
+D:\gitlab.com\diplomado\taller_patrones\escenario02\bin\Debug\net8.0\Escenario02.deps.json
+D:\gitlab.com\diplomado\taller_patrones\escenario02\bin\Debug\net8.0\Escenario02.runtimeconfig.json
+D:\gitlab.com\diplomado\taller_patrones\escenario02\bin\Debug\net8.0\Escenario02.dll
+D:\gitlab.com\diplomado\taller_patrones\escenario02\bin\Debug\net8.0\Escenario02.pdb
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.dll
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\refint\Escenario02.dll
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.pdb
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\Escenario02.genruntimeconfig.cache
+D:\gitlab.com\diplomado\taller_patrones\escenario02\obj\Debug\net8.0\ref\Escenario02.dll

@@ -1,0 +1,37 @@
+@startuml
+top to bottom direction
+
+' Clases principales
+class Car {
+    -carType: string
+    -options: Dictionary<string, string>
+    +Car(carType: string)
+    +AddOption(key: string, value: string)
+    +GetConfigOptions()
+}
+
+abstract class CarConfigurator {
+    +car: Car
+    +ConfigMotor()
+    +ConfigTires()
+    +ConfigColor()
+    +ConfigAudioSystem()
+    +ConfigSunroof()
+    +ConfigGPS()
+}
+
+class SuvConstructor
+class TaxiConstructor
+class SportConstructor
+
+CarConfigurator <|-- SuvConstructor
+CarConfigurator <|-- TaxiConstructor
+CarConfigurator <|-- SportConstructor
+
+class CarConstructor {
+    +ConfigOptions(configurator: CarConfigurator)
+}
+
+CarConstructor --> CarConfigurator
+
+@enduml
