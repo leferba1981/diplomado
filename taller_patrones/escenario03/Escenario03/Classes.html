@@ -1,0 +1,26 @@
++------------------------+       +----------------------+
+|    <<interface>>       |       |       User           |
+|    IChatMediator       |       | {abstract}           |
++------------------------+       +----------------------+
+| +RegisterUser(User)    |<------| #mediator            |
+| +SendMessage(string,   |       | +Name: string        |
+|              User)     |       +----------------------+
++------------------------+       | +User(IChatMediator, |
+           ▲                     |       string)        |
+           |                     | +Send(string)        |
+           |                     | +ReceiveMessage      |
++------------------------+       |  (string, string)    |
+|      ChatRoom          |       +----------------------+
++------------------------+                ▲
+| -users: List<User>     |                |
++------------------------+                |
+| +RegisterUser(User)    |       +----------------------+
+| +SendMessage(string,   |       |      ChatUser        |
+|             User)      |       +----------------------+
++------------------------+       | +ChatUser(           |
+                                 |   IChatMediator,     |
+                                 |   string)            |
+                                 | +Send(string)        |
+                                 | +ReceiveMessage      |
+                                 |   (string, string)   |
+                                 +----------------------+
