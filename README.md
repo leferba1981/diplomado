@@ -18,4 +18,4 @@
 ### Escenario 3
 - Patrón de Comportamiento -> Mediator
 - [Codigo fuente](taller_patrones/escenario03/Escenario03/)
-- ![Texto alternativo](taller_patrones/escenario03/Escenario03/Classes.html)
+- [Diagrama de clases](taller_patrones/escenario03/Escenario03/Classes.html)
