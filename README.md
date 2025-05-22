@@ -7,15 +7,15 @@
 
 ### Escenario 1
 - Patrón Creacional -> BUILDER
-- [Codigo fuente](escenario01/)
-- ![Texto alternativo](escenario01/classes.png)
+- [Codigo fuente](taller_patrones/escenario01/)
+- ![Texto alternativo](taller_patrones/escenario01/classes.png)
 
 ### Escenario 2
 - Patrón Creacional -> ABSTRACT FACTORY
-- [Codigo fuente](escenario02/)
-- ![Texto alternativo](escenario02/classes.png)
+- [Codigo fuente](taller_patrones/escenario02/)
+- ![Texto alternativo](taller_patrones/escenario02/classes.png)
 
 ### Escenario 3
-- Patrón Creacional -> BUILDER
-- [Codigo fuente](escenario03/Escenario03/)
-- ![Texto alternativo](escenario03/Classes.html)
+- Patrón de Comportamiento -> Mediator
+- [Codigo fuente](taller_patrones/escenario03/Escenario03/)
+- ![Texto alternativo](taller_patrones/escenario03/Classes.html)
